@@ -1,0 +1,1217 @@
+
+/* ------ Zaglavlje / početak ------ */
+.zaglavlje {
+	height: 20px;
+	background-size: cover;
+}
+.zaglavlje a {
+	color: #000000;
+	font-size: 24pt;
+	text-decoration: none;
+	display: block;
+	margin-top: 30px;
+	margin-left: -310px;
+
+	font-family: 'Quicksand', sans-serif;
+}
+.omeni_slika{
+
+	
+	
+}
+@media screen and (max-width: 575px) {
+	.zaglavlje {
+		height: 250px;
+	}
+	.zaglavlje p {
+		display: none;
+	}
+	.zaglavlje a {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%,-50%);
+		margin: 0;
+		font-size: 18pt;
+	}
+	
+	.velicina_slidera
+	{
+		
+		margin-top:50px;
+	}
+	.prva_omeni
+	{
+		
+		margin-left:120px;
+		
+	}
+	
+}
+
+/* ------ Zaglavlje / kraj ------ */
+
+/* ------ Navigacija / početak ------ */
+.navigacija {
+	height: 80px;
+	text-align: center;
+	
+
+	
+}
+.navigacija li {
+	display: inline;
+	margin-right: 50px;
+	list-style-type: none;
+	
+
+	
+}
+.navigacija li:active{
+	
+	
+	border-bottom: 2px solid #000000;
+	
+	
+}
+
+.navigacija li:hover{
+	
+	
+	border-bottom: 2px solid #000000;
+}
+.navigacija li a {
+	line-height: 70px;
+	color: #000;
+	text-decoration: none;
+	font-size: 24pt;
+	
+}
+.navigacija .hamburger {
+	text-align: right;
+	font-size: 24pt;
+	line-height: 70px;
+	padding-right: 40px;
+	display: none;
+}
+.navigacija .main-menu {
+	margin-bottom: 0;
+}
+@media screen and (max-width:760px) {
+	.navigacija .hamburger {
+		display: block;
+	}
+	.navigacija .main-menu li {
+		border-top: 1px solid black;
+		display: block;
+		background-color: #D3F8FD;
+	}
+	.navigacija {
+		height: auto;
+	}
+	.main-menu {
+		display: none;
+	}
+}
+@media screen and (min-width:761px) {
+	.main-menu {
+		display: block !important;
+	}
+}
+/* ------ Navigacija / kraj ------ */
+
+.slider .col {
+	padding-left: 0;
+	padding-right: 0;
+	margin-top: 40px;
+	
+}
+.slider h2 {
+	font-size: 18pt;
+	text-transform: uppercase;
+}
+.slider p {
+	font-size: 14pt;
+}
+.slider .carousel-caption {
+	background-color: rgba(0,0,0,0.4);
+	border-radius: 10px;
+	margin-bottom: 20px;
+	
+}
+
+/* ------ Galerija / početak ------ */
+.galerija h1 {
+	text-transform: uppercase;
+	font-size: 24pt;
+	text-align: center;
+	padding-top: 60px;
+	padding-bottom: 40px;
+}
+.galerija .slika .maska {
+	background-color: #000;
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	opacity: 0;
+	transition: 1s ease;
+}
+.galerija .slika:hover .maska {
+	opacity: 0.7;
+}
+.galerija .slika .maska p {
+	color: #fff;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+}
+.galerija .slika {
+	padding: 0;
+}
+.galerija .maska a {
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+}
+.galerija .maska .naziv-rada {
+	font-size: 18pt;
+	text-transform: uppercase;
+}
+.galerija .maska .kategorija {
+	font-size: 14pt;
+}
+/* ------ Galerija / kraj ------ */
+
+/* ------ Kontakt / početak ------ */
+.kontakt {
+	background-color: #F1C40F;
+	padding: 50px 30px;
+	margin-top: 60px;
+}
+.kontakt h1 {
+	font-size: 24pt;
+	font-family: 'Lobster', cursive;
+	padding-bottom: 30px;
+}
+.kontakt input[type=text],
+.kontakt input[type=email],
+.kontakt textarea {
+	border: 0;
+	border-radius: 0;
+}
+.kontakt input {
+	height: 50px;
+}
+.kontakt button[type=submit] {
+	background-color: #000;
+	border: 0;
+	border-radius: 0;
+	width: 200px;
+	height: 50px;
+}
+@media screen and (max-width:575px) {
+	.kontakt button[type=submit] {
+		width: 100%;
+	}
+}
+.kontakt ::placeholder {
+	font-size: 14pt;
+	font-family: 'Lobster', cursive;
+}
+/* ------ Kontakt / kraj ------ */
+
+/* ------ Footer / početak ------ */
+.footer {
+	height: 250px;
+	background: url('slike/footer.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin-top: 60px;
+}
+
+.footer .footer-content {
+	width: 100%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+.footer ul {
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+.footer ul li {
+	display: inline;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+.footer li a {
+	color: #fff;
+	font-size: 18pt;
+	text-decoration: none;
+}
+@media screen and (max-width:767px) {
+	.footer ul li {
+		display: block;
+		text-align: center;
+	}
+}
+.footer p {
+	color: #fff;
+	width: 100%;
+	text-align: center;
+	margin:0;
+	margin-top: 30px;
+	padding: 0;
+}
+
+/* ------ Footer / kraj ------ */
+
+
+
+/* ------ O meni / početak ------ */
+.o-meni h1,
+.vjestine h1 {
+	text-transform: uppercase;
+	font-size: 24pt;
+	text-align: center;
+	padding-top: 60px;
+	padding-bottom: 40px;
+}
+.vjestina {
+	height: 250px;
+}
+.vjestina.svijetlo-siva {
+	background-color: #F0F0F0;
+}
+.vjestina.tamno-siva {
+	background-color: #E0E0E0;
+}
+@media screen and (max-width:767px) {
+	.vjestina:nth-child(odd) {
+		background-color: #F0F0F0;
+	}
+	.vjestina:nth-child(even) {
+		background-color: #E0E0E0;
+	}
+	.o-meni p:nth-child(1) {
+		margin-top: 40px;
+	}
+}
+.vjestina p {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 14pt;
+}
+.no-spacing {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+/* ------ O meni / kraj ------ */
+
+/* ------ Članci / početak ------ */
+.clanci h1 {
+	text-transform: uppercase;
+	font-size: 24pt;
+	text-align: center;
+	padding-top: 60px;
+	padding-bottom: 40px;
+}
+.clanci .mt-60 {
+	margin-top: 60px;
+}
+.clanak h2 {
+	font-size: 24pt;
+	margin-bottom: 20px;
+}
+@media screen and (max-width:767px) {
+	.clanak h2 {
+		margin-top: 20px;		
+	}
+}
+@media screen and (max-width:575px) {
+	.clanak h2 {
+		margin-top: 20px;
+		text-align: center;
+	}
+	.clanak p {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+}
+
+/* ------ Članci / kraj ------ */
+
+
+/* ------ Društvene mreže / početak ------ */
+.social-profiles h1 {
+	text-transform: uppercase;
+	font-size: 24pt;
+	text-align: center;
+	padding-top: 60px;
+	padding-bottom: 40px;
+}
+.social-profile {
+	height: 250px;
+}
+.social-profile.svijetlo-siva {
+	background-color: #F0F0F0;
+}
+.social-profile.tamno-siva {
+	background-color: #E0E0E0;
+}
+@media screen and (max-width:767px) {
+	.social-profile:nth-child(odd) {
+		background-color: #F0F0F0;
+	}
+	.social-profile:nth-child(even) {
+		background-color: #E0E0E0;
+	}
+}
+.social-profile p {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 32pt;
+}
+.social-profile p a {
+	color: #000;
+	text-decoration: none;
+}
+/* ------ Društvene mreže / kraj ------ */
+
+
+
+
+/*MojCSS*/
+
+
+.prva_slika
+{
+	position: relative;
+margin-left: -80px;
+margin-top: -700px;
+	
+	
+	
+}
+.o_meni_tekst
+{
+	line-height: 60px;
+	 position: absolute;
+  left: 680px;
+  top: 270px;
+	font-size: 1.4vw;
+	margin-top: -20px;
+
+}
+
+.drustvene_behance{
+	
+	position: absolute;
+  left: 1220px;
+  top: 20px;
+	
+}
+.drustvene_fejs{
+	
+	position: absolute;
+  left: 1300px;
+  top: 20px;
+	
+}
+
+.drustvene_insta{
+	
+	position: absolute;
+  left: 1380px;
+  top: 20px;
+	
+	
+	
+}
+.home_ikona{
+	
+	position: absolute;
+  left: -40px;
+  top: -8px;
+	
+	
+	
+}
+
+.omeni_kocka{
+	
+	
+  position:relative;
+	top: -30px;
+	left: -370px;
+}
+/*Underline Navigacija*/
+
+body#work_work{
+	
+	
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center; 
+	background-size: 100% 110%;
+	
+	
+}
+body#about_about
+{
+	background: url(slike/traka.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center; 
+	background-size: 100% 110%;
+	
+	
+}
+.pozadina_pozadina{
+	
+	margin-top: -150px;
+	margin-left: -390px;
+	
+}
+
+body#radovi3d3d
+{
+	background: url(slike/traka.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center; 
+	background-size: 100% 110%;
+	
+}
+
+
+
+
+.pomicna_photoshop {
+  position: relative;
+  width: 45%;
+	margin-top: -1600px;
+	margin-left: -240px;
+	 box-shadow: -25px 25px 15px 0px #6666;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #008CBA;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+	opacity: 0.9;
+	
+}
+
+.pomicna_photoshop:hover .overlay {
+  height: 100%;
+}
+
+.pomicna_logo:hover .overlay {
+  height: 100%;
+}
+
+.pomicna_3D:hover .overlay {
+  height: 100%;
+}
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.link{
+	
+	
+	color: white;
+}
+p2{
+	
+	font-size: 33px;
+	font-family: 'Quicksand', sans-serif;
+}
+.photo_manipulation{
+	
+	position:relative;
+	top: -220px;
+	left: 880px;
+	width:50%;
+	
+}
+p4{
+	
+	font-family: 'Quicksand', sans-serif;
+	font-size: 2vw;
+}
+
+.pomicna_logo {
+  position: relative;
+  width: 45%;
+	margin-top: 50px;
+	margin-left: 750px;
+	 box-shadow: 25px 25px 15px 0px #6666;
+}
+.pomicna_3D {
+  position: relative;
+  width: 55%;
+	margin-top: 90px;
+	margin-left: -280px;
+	 box-shadow: 25px 25px 15px 0px #6666;
+}
+.logo{
+	
+	position:relative;
+	top: -220px;
+	left: -80px;
+	
+}
+.tekst3D{
+	
+		position:relative;
+	top: -170px;
+	left: 940px;
+	width:50%;
+}
+
+
+
+
+
+
+/*Prva slika Photoshop*/
+
+
+.vanjski-div_prva
+{
+     height: 700px;
+     overflow: hidden; 
+	width: 45%;
+	margin-top: 20px;
+	margin-left: 0px;
+}
+.unutarnji-div_prva
+{
+     height: 100%;
+     width: 100%;
+     background-size: cover;
+     background-position: center;
+     transition: all 0.5s ease;
+     background-image: url(photoshop/drawn.jpg);
+}
+.unutarnji-div_prva:hover
+{
+     transform: scale(1.2);
+}
+
+
+/*ende- prva slika*/
+
+
+/*Druga slika Photoshop*/
+
+
+.vanjski-div_druga
+{
+     height: 450px;
+     overflow: hidden; 
+	width: 54%;
+	margin-top: -700px;
+	margin-left: 510px;
+}
+.unutarnji-div_druga
+{
+     height: 100%;
+     width: 100%;
+     background-size: cover;
+     background-position: center;
+     transition: all 0.5s ease;
+     background-image: url(photoshop/ride.jpg);
+}
+.unutarnji-div_druga:hover
+{
+     transform: scale(1.2);
+}
+
+
+/*ende- druga slika*/
+
+
+/*treca slika Photoshop*/
+
+
+.vanjski-div_treca
+{
+     height: 650px;
+     overflow: hidden; 
+	width: 53;
+	margin-top: 10px;
+	margin-left: 510px;
+}
+.unutarnji-div_treca
+{
+     height: 100%;
+     width: 100%;
+     background-size: cover;
+     background-position: center;
+     transition: all 0.5s ease;
+     background-image: url(photoshop/treca.jpg);
+}
+.unutarnji-div_treca:hover
+{
+     transform: scale(1.2);
+}
+
+
+/*ende- treca slika*/
+
+
+/*cetvrta slika Photoshop*/
+
+
+.vanjski-div_cetvrta
+{
+     height: 400px;
+     overflow: hidden; 
+	width: 45%;
+	margin-top: -400px;
+	
+}
+.unutarnji-div_cetvrta
+{
+     height: 100%;
+     width: 100%;
+     background-size: cover;
+     background-position: center;
+     transition: all 0.5s ease;
+     background-image: url(photoshop/mesec.jpg);
+}
+.unutarnji-div_cetvrta:hover
+{
+     transform: scale(1.2);
+}
+
+
+/*ende- cetvrta slika*/
+
+
+
+/*peta slika Photoshop*/
+
+
+.vanjski-div_peta
+{
+     height: 500px;
+     overflow: hidden; 
+	width: 45%;
+	margin-top: 11px;
+	
+}
+.unutarnji-div_peta
+{
+     height: 100%;
+     width: 100%;
+     background-size: cover;
+     background-position: center;
+     transition: all 0.5s ease;
+     background-image: url(photoshop/workout.jpg);
+}
+.unutarnji-div_peta:hover
+{
+     transform: scale(1.2);
+}
+
+
+/*ende- cetvrta slika*/
+
+/*sesta slika Photoshop*/
+
+
+.vanjski-div_sesta
+{
+     height: 600px;
+     overflow: hidden; 
+	width: 54%;
+	margin-top: -500px;
+	margin-left: 510px;
+	
+}
+.unutarnji-div_sesta
+{
+     height: 100%;
+     width: 100%;
+     background-size: cover;
+     background-position: center;
+     transition: all 0.5s ease;
+     background-image: url(photoshop/under.jpg);
+}
+.unutarnji-div_sesta:hover
+{
+     transform: scale(1.2);
+}
+
+
+/*ende- sesta slika*/
+
+
+body#radovi_pozadina
+{
+	background: url(slike/okolo.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center; 
+	background-size: 100% 110%;
+	
+	
+}
+.velicina_slidera
+{
+	
+	
+	width:40%;
+	margin-left: 580px;
+	 box-shadow: 5px 25px 15px 0px #6666;
+}
+
+
+
+.aktivna{
+	
+	border-bottom: 2px solid #000000;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/**Kontakt forma*/
+
+
+
+input[type=text], select, textarea {
+  width: 30%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.kontak_forma {
+	margin-top:-800px;
+  border-radius: 5px;
+  
+  padding: 20px;
+	width: 73%;
+	margin-left: 30px;
+}
+p10{
+	
+	font-size:4vw;
+	font-weight: bold;
+	margin-left: 300px;
+	font-family: 'Quicksand', sans-serif;
+	border-bottom: 4px solid #000000;
+}
+p11{
+   
+	font-size:1.1vw;
+	line-height: 10px;
+    margin-left: 320px;
+	font-family: 'Quicksand', sans-serif;
+
+}
+p12{
+	font-family: 'Quicksand', sans-serif;
+	margin-left: 280px;
+	
+	font-size: 0.9vw;
+	
+	word-spacing: 30px;
+}
+p13{
+	
+	font-size:20px;
+	line-height: 10px;
+    margin-left: 340px;
+	font-family: 'Quicksand', sans-serif;
+	
+}
+
+#Ime_forma
+{
+	font-size:30px;
+	font-family: 'Quicksand', sans-serif;
+}
+#email_forma
+{
+	font-size:30px;
+	font-family: 'Quicksand', sans-serif;
+	
+	
+}
+
+#broj_forma
+{
+	font-size:30px;
+	font-family: 'Quicksand', sans-serif;
+	
+	
+	
+}
+
+.email_umetanje1{
+	
+	
+	margin-left: 500px;
+	margin-top: -116px;
+}
+#email_umetanje2{
+	
+	width: 40%;
+	margin-left: 500px;
+	margin-top: -10px;
+}
+.ime_umetanje1{
+	
+margin-top: 37px;	
+	margin-left:260px;
+}
+.ime_umetanje2{
+	
+margin-top: -13px;	
+	margin-left:260px;
+	width:97%;
+}
+#kontaktforma_pozadina
+{
+	background-color:#D3F8FD;
+	align-content: center;
+	 width: 75%;
+	height: 800px;
+ 
+  padding: 25px;
+box-shadow: -12px 20px 15px 0px #6666;
+	margin-left:170px;
+	
+}
+
+.broj_umetanje1
+{
+	margin-top: 10px;	
+	margin-left:260px;
+	
+	
+}
+
+.broj_umetanje2{
+	margin-top: -10px;	
+	margin-left:255px;
+	width:110%;
+	
+	
+}
+#inputgumb{
+	
+
+	margin-left: 260px;
+}
+#poruka_box{
+	margin-left:255px;
+	margin-right: -20px;
+	
+	width:120%;
+}
+#broj{
+	
+	margin-left: 260px;
+	
+}
+#subject{
+	
+	
+	width:80%;
+height: 100px;
+	margin-left: 260px;
+}
+.vertikalnalinija1{
+	
+	
+	 border-left: 1px solid black;
+  height: 35px;
+	margin-left: 347px;
+	margin-top: -27px;
+}
+.vertikalnalinija2{
+	
+	
+	 border-left: 1px solid black;
+  height: 35px;
+	margin-left: 710px;
+	margin-top:-36px;
+	
+}
+.email_moj{
+	
+	
+	margin-top: -30px;
+	margin-left: 500px;
+}
+p16{
+	
+	word-spacing: 20px;
+}
+#about_pozadina{
+	
+	
+	background-color:white;
+	align-content: center;
+	 width: 130%;
+	height: 700px;
+ margin-top:40px;
+  padding: 25px;
+box-shadow: -2px 20px 20px 20px #3333;
+	margin-left:-85px;
+	
+
+}
+
+@media screen and (max-width:760px) {
+	.o_meni_tekst {
+		
+
+	line-height: 60px;
+	 
+  margin-left: 40px;
+  top: 570px;
+	font-size: 1.4vw;
+	margin-top: -60px;
+
+
+
+	}
+}
+@media screen and (max-width:760px) {
+	.drustvene_behance {
+		position: absolute;
+  left: 200px;
+  top: 20px;
+		
+	}
+	
+	@media screen and (max-width:760px) {
+	.drustvene_fejs {
+		position: absolute;
+  left: 250px;
+  top: 20px;
+		
+	}
+		@media screen and (max-width:760px) {
+	.drustvene_insta {
+		position: absolute;
+  left: 300px;
+  top: 20px;
+		
+	}
+	
+				@media screen and (max-width:760px) {
+	.pomicna_photoshop{
+		 position: relative;
+  width: 45%;
+	margin-top: -1300px;
+	margin-left: 20px;
+	 box-shadow: -25px 25px 15px 0px #6666;
+}
+					.pomicna_logo{
+						
+						
+						 position: relative;
+  width: 45%;
+	margin-top: 70px;
+	margin-left: 20px;
+	 box-shadow: 25px 25px 15px 0px #6666;
+						
+					}
+					
+					.pomicna_3D{
+						position: relative;
+  width: 55%;
+	margin-top: 90px;
+	margin-left: 20px;
+	 box-shadow: 25px 25px 15px 0px #6666;
+
+						
+					
+						
+					}
+					.o_meni_tekst
+					{
+						
+						
+						line-height: 20px;
+	 position: absolute;
+  left: 200px;
+  top: 270px;
+	font-size: 1.4vw;
+	margin-top: 50px;
+
+					}
+					
+					.photo_manipulation{
+						
+margin-top: 120px;
+	left: 320px;
+	width:70%;
+	
+						
+						
+					}
+					
+						.logo{
+						
+position:relative;
+	top: -120px;
+	left: 320px;
+	
+						
+						
+					}
+					
+						.tekst3D{
+						
+position:relative;
+	top: -100px;
+	left: 320px;
+	width:50%;
+						
+								}
+					.pozadina_pozadina{
+						
+						
+						margin-top: -400px;
+						
+					}
+					.vanjski-div_prva{
+						
+						width:100%;
+					}
+					
+					.vanjski-div_druga
+{
+     height: 450px;
+     overflow: hidden; 
+	width: 100%;
+	margin-top: 10px;
+	margin-left: 0px;
+
+			
+					
+					}
+	
+					.vanjski-div_treca
+{
+     height: 650px;
+     overflow: hidden; 
+	width: 100%;
+	margin-top: 10px;
+	margin-left: 0px;
+}
+					
+					.vanjski-div_cetvrta
+{
+     height: 400px;
+     overflow: hidden; 
+	width: 100%;
+	margin-top: 10px;
+	
+}
+					.vanjski-div_peta{
+						
+						
+						width:100%;
+					}
+					.vanjski-div_sesta
+{
+     height: 600px;
+     overflow: hidden; 
+	width: 100%;
+	margin-top: 10px;
+	margin-left: 0px;
+	
+}
+					.velicina_slidera
+					{
+						
+						margin-left:200px;
+					}
+	}
+			
+			
+			
+			
+	
+			
+			
+			
+			
+			
+			
+			
+			
+			
+		
